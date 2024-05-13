@@ -1,0 +1,1370 @@
+.body {
+   width: 1450;
+   margin: 0;
+   overflow-x: hidden;
+
+}
+
+
+.header {
+   position: fixed;
+   z-index: 3;
+   border: 32px solid rgb(255, 255, 255);
+   width: 1450px;
+   height: 10px;
+   background: #ffffff;
+   top: -1px;
+}
+
+.img-icon {
+   /* audi znak 1 */
+   display: block;
+   position: absolute;
+   width: 90px;
+   height: 50px;
+   left: 8px;
+   top: -10px;
+   background: none;
+   opacity: 1;
+   transform-origin: top left;
+   animation: drop 3.5s ease-in-out;
+}
+
+@keyframes drop {
+
+   20%,
+   60% {
+      transform: rotate(45deg)
+   }
+
+   40%,
+   80% {
+      transform: rotate(55deg);
+      opacity: 1;
+   }
+
+   100% {
+      transform: translateY(600px);
+      opacity: 0;
+   }
+}
+
+.a-company1 {
+   /* Company */
+   display: block;
+   position: absolute;
+   width: 70px;
+   height: 33px;
+   left: 100px;
+   top: 10px;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 13px;
+   /* identical to box height */
+
+   color: #000000;
+   text-decoration: none;
+
+}
+
+.a-company1:hover {
+   font-weight: 800;
+   border-bottom: 2px solid black;
+}
+
+.a-innovation1 {
+   /* Innovation */
+   display: block;
+   position: absolute;
+   width: 80px;
+   height: 33px;
+   left: 200px;
+   top: 10px;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 13px;
+   /* identical to box height */
+
+   color: #000000;
+   text-decoration: none;
+
+
+}
+
+.a-innovation1:hover {
+   font-weight: 800;
+   border-bottom: 2px solid black;
+}
+
+.a-sustainability1 {
+   /* Sustainability */
+   display: block;
+   position: absolute;
+   width: 100px;
+   height: 33px;
+   left: 300px;
+   top: 10px;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 13px;
+   /* identical to box height */
+
+   color: #000000;
+   text-decoration: none;
+
+}
+
+.a-sustainability1:hover {
+   font-weight: 800;
+   border-bottom: 2px solid black;
+}
+
+
+.a-karriere1 {
+   /* Karriere */
+
+   display: block;
+   position: absolute;
+   width: 60px;
+   height: 33px;
+   left: 420px;
+   top: 10px;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 13px;
+   /* identical to box height */
+
+   color: #000000;
+   text-decoration: none;
+}
+
+.a-karriere1:hover {
+   font-weight: 800;
+   border-bottom: 2px solid black;
+}
+
+.a-audiinsport1 {
+   /* Audi in sport */
+   display: block;
+   position: absolute;
+   width: 95px;
+   height: 33px;
+   left: 505px;
+   top: 10px;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 13px;
+   /* identical to box height */
+
+   color: #000000;
+   text-decoration: none;
+
+}
+
+.a-audiinsport1:hover {
+   font-weight: 800;
+   border-bottom: 2px solid black;
+}
+
+
+.logika1:hover {
+   font-weight: 800;
+   border-bottom: 2px solid black;
+}
+
+.img-logika1 {
+   display: block;
+   position: absolute;
+   width: 65px;
+   height: 50px;
+   left: 15px;
+   top: -10px;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 13px;
+   /* identical to box height */
+
+
+   color: #000000;
+   text-decoration: none;
+}
+
+
+.img-lupa {
+   display: block;
+   position: relative;
+   width: 17px;
+   height: 17px;
+   left: 1065px;
+   top: 100%;
+}
+
+.p-search {
+   display: block;
+   position: absolute;
+   width: 122px;
+   height: 33px;
+   left: 1110px;
+   top: 0%;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 13px;
+   /* identical to box height */
+
+   color: #000000;
+   text-decoration: none;
+}
+
+.p-linija {
+   display: block;
+   position: absolute;
+   left: 1160px;
+   top: -25px;
+   font-size: 28px;
+   font-family: 'verdana';
+   /* identical to box height */
+
+   color: #000000;
+   text-decoration: none;
+}
+
+.flag-of-ukraine {
+   display: block;
+   position: absolute;
+   left: 1180px;
+   width: 28px;
+   height: 28px;
+   border-radius: 1100px;
+   top: 8px;
+}
+
+.region {
+   display: block;
+   width: 170px;
+   position: absolute;
+   left: 1225px;
+   font-size: 12px;
+   top: -4px;
+   color: #00000060;
+   font-family: Verdana
+}
+
+.Ukraine {
+   display: block;
+   width: 150px;
+   position: absolute;
+   left: 1225px;
+   font-size: 13.5px;
+   top: 8px;
+   font-family: Verdana
+}
+
+.img-audi {
+   position: absolute;
+   width: 1450px;
+   height: 380px;
+   bottom: 196px;
+   transition: 1s;
+   display: block;
+}
+
+.img-audi:hover {
+   transform: scale(1.1);
+}
+
+
+.h1 {
+   position: absolute;
+   width: 5000px;
+   height: 33px;
+   left: 100px;
+   top: 170px;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 60px;
+   /* identical to box height */
+
+   color: #ffffff;
+   text-decoration: none;
+
+
+}
+
+.h2 {
+   position: absolute;
+   width: 5000px;
+   height: 33px;
+   left: 385px;
+   top: 270px;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 20px;
+   /* identical to box height */
+
+   color: #ffffff;
+   text-decoration: none;
+
+}
+
+.a-readmore1 {
+   position: absolute;
+   width: 205px;
+   height: 33px;
+   left: 580px;
+   top: 320px;
+   text-align: center;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 15px;
+   /* identical to box height */
+
+   color: #ffffff;
+
+   border: 0.5px solid rgb(255, 255, 255);
+   padding-top: 18px;
+   text-decoration: none;
+   opacity: 1;
+}
+
+.a-readmore1:hover {
+   opacity: 0.5;
+   transition: 0.5s;
+}
+
+
+
+.textCurrent {
+   position: absolute;
+   top: 470px;
+   font-size: 40px;
+   width: 1000px;
+   left: 300px;
+   font-family: Verdana;
+}
+
+.photo9 {
+   position: absolute;
+   width: 330px;
+   height: 200px;
+   top: 620px;
+   left: 200px;
+   transition: 1s;
+   display: block;
+}
+
+.photo7 {
+   position: absolute;
+   width: 330px;
+   height: 200px;
+   top: 620px;
+   left: 535px;
+   transition: 1s;
+   display: block;
+}
+
+.photo8 {
+   position: absolute;
+   width: 330px;
+   height: 200px;
+   top: 620px;
+   left: 870px;
+   transition: 1s;
+   display: block;
+}
+
+.photo9:hover {
+   transform: scale(1.1);
+}
+
+.photo7:hover {
+   transform: scale(1.1);
+}
+
+.photo8:hover {
+   transform: scale(1.1);
+}
+
+.data1 {
+   width: 170px;
+   position: absolute;
+   left: 210px;
+   font-size: 10px;
+   top: 825px;
+   color: #00000060;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+
+.data2 {
+   width: 250px;
+   position: absolute;
+   left: 545px;
+   font-size: 10px;
+   top: 825px;
+   color: #00000060;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+
+.data3 {
+   width: 170px;
+   position: absolute;
+   left: 880px;
+   font-size: 10px;
+   top: 825px;
+   color: #00000060;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+
+.title1 {
+   width: 590px;
+   position: absolute;
+   left: 210px;
+   font-size: 18px;
+   top: 840px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+
+.title2 {
+   width: 390px;
+   position: absolute;
+   left: 545px;
+   font-size: 18px;
+   top: 840px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+
+.title3 {
+   width: 590px;
+   position: absolute;
+   left: 880px;
+   font-size: 18px;
+   top: 840px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+
+.text1 {
+   width: 310px;
+   position: absolute;
+   left: 210px;
+   font-size: 12px;
+   top: 865px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+
+.text2 {
+   width: 310px;
+   position: absolute;
+   left: 545px;
+   font-size: 12px;
+   top: 890px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+
+
+.text3 {
+   width: 310px;
+   position: absolute;
+   left: 880px;
+   font-size: 12px;
+   top: 865px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+
+
+.text4 {
+   width: 330px;
+   position: absolute;
+   left: 880px;
+   font-size: 8px;
+   top: 955px;
+   color: #000000da;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 14px;
+}
+
+.p-full {
+   width: 330px;
+   position: absolute;
+   left: 200px;
+   font-size: 20px;
+   top: 1155px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 14px;
+}
+
+.p-audi {
+   width: 450px;
+   position: absolute;
+   left: 200px;
+   font-size: 12px;
+   top: 1220px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+.a-readmore2 {
+   position: absolute;
+   width: 205px;
+   height: 33px;
+   left: 200px;
+   top: 1340px;
+   text-align: center;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 15px;
+   /* identical to box height */
+
+   color: #000000;
+
+   border: 0.5px solid rgb(0, 0, 0);
+   padding-top: 18px;
+   text-decoration: none;
+   opacity: 1;
+}
+
+.a-readmore2:hover {
+   opacity: 0.5;
+   transition: 1s;
+}
+
+.p-audi-q8 {
+   width: 361px;
+   position: absolute;
+   left: 200px;
+   font-size: 8px;
+   top: 1400px;
+   color: #000000da;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+.photo5 {
+   position: absolute;
+   left: 650px;
+   top: 1120px;
+   width: 650px;
+   height: 350px;
+}
+
+.photo6 {
+   position: absolute;
+   left: 200px;
+   top: 1700px;
+   width: 650px;
+   height: 350px;
+}
+
+.work {
+   width: 330px;
+   position: absolute;
+   left: 880px;
+   font-size: 20px;
+   top: 1765px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 14px;
+}
+
+.helpus {
+   width: 450px;
+   position: absolute;
+   left: 880px;
+   font-size: 12px;
+   top: 1815px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+.a-readmore3 {
+   position: absolute;
+   width: 205px;
+   height: 40px;
+   left: 880px;
+   top: 1940px;
+   text-align: center;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 15px;
+   /* identical to box height */
+
+   color: #000000;
+
+   border: 0.5px solid rgb(0, 0, 0);
+   padding-top: 18px;
+   text-decoration: none;
+   opacity: 1;
+}
+
+.a-readmore3:hover {
+   opacity: 0.5;
+   transition: 1s;
+}
+
+.Press {
+   width: 390px;
+   position: absolute;
+   left: 545px;
+   font-size: 40px;
+   top: 2100px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+.photo1 {
+   position: absolute;
+   width: 330px;
+   height: 200px;
+   top: 2250px;
+   left: 200px;
+   transition: 1s;
+   display: block;
+}
+
+.photo3 {
+   position: absolute;
+   width: 330px;
+   height: 200px;
+   top: 2250px;
+   left: 535px;
+   transition: 1s;
+   display: block;
+   display: inline-block;
+   overflow: hidden;
+}
+
+.photo2 {
+   position: absolute;
+   width: 330px;
+   height: 200px;
+   top: 2250px;
+   left: 870px;
+   transition: 1s;
+   display: block;
+}
+
+.photo1:hover {
+   transform: scale(1.1);
+}
+
+.photo3:hover {
+   transform: scale(1.1);
+}
+
+.photo2:hover {
+   transform: scale(1.1);
+}
+
+.data4 {
+   width: 170px;
+   position: absolute;
+   left: 210px;
+   font-size: 10px;
+   top: 2450px;
+   color: #00000060;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+
+.data5 {
+   width: 250px;
+   position: absolute;
+   left: 545px;
+   font-size: 10px;
+   top: 2450px;
+   color: #00000060;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+.data6 {
+   width: 170px;
+   position: absolute;
+   left: 880px;
+   font-size: 10px;
+   top: 2450px;
+   color: #00000060;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+.title4 {
+   width: 290px;
+   position: absolute;
+   left: 210px;
+   font-size: 18px;
+   top: 2465px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+.title5 {
+   width: 290px;
+   position: absolute;
+   left: 545px;
+   font-size: 18px;
+   top: 2465px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+.title6 {
+   width: 290px;
+   position: absolute;
+   left: 880px;
+   font-size: 18px;
+   top: 2465px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+.text5 {
+   width: 310px;
+   position: absolute;
+   left: 210px;
+   font-size: 12px;
+   top: 2570px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+.text6 {
+   width: 330px;
+   position: absolute;
+   left: 210px;
+   font-size: 8px;
+   top: 2610px;
+   color: #000000da;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 14px;
+}
+
+.text7 {
+   width: 310px;
+   position: absolute;
+   left: 545px;
+   font-size: 12px;
+   top: 2550px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+.text8 {
+   width: 310px;
+   position: absolute;
+   left: 880px;
+   font-size: 12px;
+   top: 2570px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+.a-totheaudi {
+   position: absolute;
+   width: 205px;
+   height: 40px;
+   left: 595px;
+   top: 2730px;
+   text-align: center;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 13px;
+   /* identical to box height */
+
+   color: #ffffff;
+
+   border: 0.5px solid rgb(0, 0, 0);
+   padding-top: 18px;
+   text-decoration: none;
+   background-color: #000000;
+   opacity: 1;
+}
+
+.a-totheaudi:hover {
+   opacity: 0.5;
+   transition: 1s;
+}
+
+.photo4 {
+   position: absolute;
+   left: 200px;
+   top: 2850px;
+   width: 650px;
+   height: 350px;
+}
+
+.p-ataudi {
+   width: 500px;
+   position: absolute;
+   left: 880px;
+   font-size: 20px;
+   top: 2870px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.p-sporty {
+   width: 460px;
+   position: absolute;
+   left: 880px;
+   font-size: 13px;
+   top: 2950px;
+   color: #000000;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+.a-discover {
+   position: absolute;
+   width: 205px;
+   height: 40px;
+   left: 880px;
+   top: 3040px;
+   text-align: center;
+
+   font-family: 'verdana';
+   font-weight: 400;
+   font-size: 13px;
+   /* identical to box height */
+
+   color: #000000;
+
+   border: 0.5px solid rgb(0, 0, 0);
+   padding-top: 18px;
+   text-decoration: none;
+   opacity: 1;
+}
+
+.a-discover:hover {
+   opacity: 0.7;
+   transition: 1s;
+}
+
+.p-audi-q4 {
+   width: 361px;
+   position: absolute;
+   left: 880px;
+   font-size: 8px;
+   top: 3110px;
+   color: #000000da;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+.footer {
+   background-color: #000000;
+   color: rgb(252, 249, 249);
+   display: block;
+   height: 500px;
+   left: 0;
+   position: absolute;
+   width: 1450px;
+   top: 3300px;
+}
+
+.in {
+   position: absolute;
+   left: 1030px;
+   width: 28px;
+   height: 28px;
+   top: 40px;
+}
+
+.in:hover {
+   opacity: 0.5;
+}
+
+.instagram {
+   position: absolute;
+   left: 1110px;
+   width: 28px;
+   height: 28px;
+   top: 40px;
+}
+
+.instagram:hover {
+   opacity: 0.5;
+}
+
+.facebook {
+   position: absolute;
+   left: 1190px;
+   width: 28px;
+   height: 28px;
+   top: 40px;
+}
+
+.facebook:hover {
+   opacity: 0.5;
+}
+
+.youtube {
+   position: absolute;
+   left: 1270px;
+   width: 28px;
+   height: 28px;
+   top: 40px;
+}
+
+.youtube:hover {
+   opacity: 0.5;
+}
+
+.topics {
+   width: 500px;
+   position: absolute;
+   left: 200px;
+   font-size: 20px;
+   top: 70px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-company2 {
+   width: 500px;
+   position: absolute;
+   left: 200px;
+   font-size: 12px;
+   top: 130px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-company2:hover {
+   opacity: 0.7;
+}
+
+.a-innovation2 {
+   width: 500px;
+   position: absolute;
+   left: 200px;
+   font-size: 12px;
+   top: 160px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-innovation2:hover {
+   opacity: 0.7;
+}
+
+.a-sustainability2 {
+   width: 500px;
+   position: absolute;
+   left: 200px;
+   font-size: 12px;
+   top: 190px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-sustainability2:hover {
+   opacity: 0.7;
+}
+
+.a-career {
+   width: 500px;
+   position: absolute;
+   left: 200px;
+   font-size: 12px;
+   top: 220px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-career:hover {
+   opacity: 0.7;
+}
+
+.a-audiinsport2 {
+   width: 500px;
+   position: absolute;
+   left: 200px;
+   font-size: 12px;
+   top: 250px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-audiinsport2:hover {
+   opacity: 0.7;
+}
+
+.audi-ag {
+   width: 500px;
+   position: absolute;
+   left: 500px;
+   font-size: 20px;
+   top: 70px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-audireport {
+   width: 500px;
+   position: absolute;
+   left: 500px;
+   font-size: 12px;
+   top: 130px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-audireport:hover {
+   opacity: 0.7;
+}
+
+.a-documents {
+   width: 500px;
+   position: absolute;
+   left: 500px;
+   font-size: 12px;
+   top: 160px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-documents:hover {
+   opacity: 0.7;
+}
+
+.a-financial {
+   width: 500px;
+   position: absolute;
+   left: 500px;
+   font-size: 12px;
+   top: 190px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-financial:hover {
+   opacity: 0.7;
+}
+
+.a-management {
+   width: 500px;
+   position: absolute;
+   left: 500px;
+   font-size: 12px;
+   top: 220px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-management:hover {
+   opacity: 0.7;
+}
+
+.a-location {
+   width: 500px;
+   position: absolute;
+   left: 500px;
+   font-size: 12px;
+   top: 250px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.a-location:hover {
+   opacity: 0.7;
+}
+
+.services {
+   width: 500px;
+   position: absolute;
+   left: 800px;
+   font-size: 20px;
+   top: 70px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.myaudi {
+   width: 500px;
+   position: absolute;
+   left: 800px;
+   font-size: 12px;
+   top: 130px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.myaudi:hover {
+   opacity: 0.7;
+}
+
+.press2 {
+   width: 500px;
+   position: absolute;
+   left: 800px;
+   font-size: 12px;
+   top: 160px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.press2:hover {
+   opacity: 0.7;
+}
+
+.contact {
+   width: 500px;
+   position: absolute;
+   left: 800px;
+   font-size: 12px;
+   top: 190px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.contact:hover {
+   opacity: 0.7;
+}
+
+.Job {
+   width: 500px;
+   position: absolute;
+   left: 800px;
+   font-size: 12px;
+   top: 220px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.Job:hover {
+   opacity: 0.7;
+}
+
+.create-line {
+   width: 1100px;
+   position: absolute;
+   border-top: 0.1px solid #ffffff;
+   left: 200px;
+   top: 320px;
+}
+
+.AUDIAG {
+   width: 500px;
+   position: absolute;
+   left: 200px;
+   font-size: 12px;
+   top: 350px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.Legalnotice {
+   width: 500px;
+   position: absolute;
+   left: 420px;
+   font-size: 12px;
+   top: 360px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.Legalnotice:hover {
+   opacity: 0.7;
+}
+
+.Legal1 {
+   width: 500px;
+   position: absolute;
+   left: 510px;
+   font-size: 12px;
+   top: 360px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.Legal1:hover {
+   opacity: 0.7;
+}
+
+.Whistleblower {
+   width: 500px;
+   position: absolute;
+   left: 570px;
+   font-size: 12px;
+   top: 360px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.Whistleblower:hover {
+   opacity: 0.7;
+}
+
+.Privacy {
+   width: 500px;
+   position: absolute;
+   left: 720px;
+   font-size: 12px;
+   top: 360px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.Privacy:hover {
+   opacity: 0.7;
+}
+
+.Cookie {
+   width: 500px;
+   position: absolute;
+   left: 830px;
+   font-size: 12px;
+   top: 360px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.Cookie:hover {
+   opacity: 0.7;
+}
+
+.CookieConsent {
+   width: 500px;
+   position: absolute;
+   left: 940px;
+   font-size: 12px;
+   top: 360px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
+
+.CookieConsent:hover {
+   opacity: 0.7;
+}
+
+.trawel {
+   position: absolute;
+   left: 1185px;
+   width: 28px;
+   height: 28px;
+   top: 360px;
+}
+
+.English {
+   width: 500px;
+   position: absolute;
+   left: 1220px;
+   font-size: 12px;
+   top: 360px;
+   color: #ffffff;
+   font-family: Verdana;
+   text-decoration: none;
+   line-height: 25px;
+}
